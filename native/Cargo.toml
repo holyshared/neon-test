@@ -1,0 +1,12 @@
+[package]
+name = "neon_test"
+version = "0.1.0"
+authors = [ "holyshared <holy.shared.design@gmail.com>" ]
+license = "MIT"
+
+[lib]
+name = "test"
+crate-type = [ "dylib" ]
+
+[dependencies]
+neon = "0.1"
