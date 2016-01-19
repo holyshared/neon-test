@@ -1,15 +1,21 @@
 # neon_test
 
-## セットアップ
+## Setup
 
 neonのインストール
 
-  npm install -g neon-cli
+	npm install -g neon-cli
 
 neonプロジェクトの作成
 
-  neon new [project_name]
+	neon new [project_name]
+
+## Build
 
 モジュールのビルド
 
-  neon build
+	npm install
+
+or
+
+	neon build
