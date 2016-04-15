@@ -2,7 +2,7 @@
 extern crate neon;
 
 use neon::vm::{ Call, JsResult };
-use neon::js::JsString;
+use neon::js::{ JsString };
 
 fn hello(call: Call) -> JsResult<JsString> {
     let scope = call.scope;
