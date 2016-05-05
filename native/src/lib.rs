@@ -23,6 +23,7 @@ fn hello2(call: Call) -> JsResult<JsString> {
 }
 
 register_module!(m, {
-//    m.export("hello", hello),
-    m.export("hello2", hello2)
+    try!(m.export("hello", hello));
+    try!(m.export("hello2", hello2));
+    Ok(())
 });
