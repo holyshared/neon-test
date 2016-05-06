@@ -1,6 +1,6 @@
-use neon::vm::{Call, JsResult};
+use neon::vm:: { Call, JsResult };
 use neon::mem::Handle;
-use neon::js::{ JsInteger, JsObject, Object};
+use neon::js:: { JsInteger, JsObject, Object };
 
 pub fn return_js_object_with_integer(call: Call) -> JsResult<JsObject> {
     let scope = call.scope;
