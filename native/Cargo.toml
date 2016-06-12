@@ -9,4 +9,4 @@ name = "test"
 crate-type = [ "dylib" ]
 
 [dependencies]
-neon = "0.1.9"
+neon = "0.1.10"
